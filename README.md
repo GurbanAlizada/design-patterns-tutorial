@@ -28,3 +28,12 @@ Bu isə kodumuzda yer alan biraz daha fərqli bir builder pattern istifədəsidi
 Prototip Pattern deyir ki, yenisini yaratmaq əvəzinə mövcud obyektin klonlanması və tələbə uyğun olaraq da fərdiləşdirilə bilər.
 Yeni obyektin yaradılmasının dəyəri bahalı və resurs tələb edirsə prototype pattern-dən istifadə edirik.
 
+# Adapter Pattern
+
+Adapter pattern iki uyğunsuz interfeys arasında körpü rolunu oynayır. Bu tip dizayn nümunəsi structural pattern hesab edilir , çünki bu model iki müstəqil interfeysin imkanlarını birləşdirir.
+Bu nümunə müstəqil və ya uyğun gəlməyən interfeyslərin funksiyalarını birləşdirməyə cavabdeh olan tək bir sinfi əhatə edir. Böyük veb proyektlərində bu pattern-ə çox rast gəlinir . İki uyğunsuz service class-larının adaptasiya olunmasında istifadə edilir . Və eyni zamanda Spring Boot-da yazdığımız restfull app-lərə xarici dünyadan digər SOAP service-ləri adaptasiya edərkən istifadə olunur . 
+Aşağıda adapter pattern-ə aid vəzyət simuliyasiya olunub.
+![img.png](img.png)
+
+Real proyektə adapter pattern-in necə işlədiyini görmək isdiyirsənsə linkə bax 
+https://github.com/GurbanAlizada/hrms
