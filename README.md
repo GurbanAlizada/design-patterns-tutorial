@@ -12,4 +12,5 @@ Abstract Factory Pattern prinsip etibari ilə factory pattern-dən əhəmiyyətl
 Aşağıda proyekt içersindəki kodun sxemi verilmişdir . Buna əsasən deyə bilərikki əvvəlce Factory-dən  Bank Factory yaranir sonraki addımda isə Bank Factoryden Bank yaranir .
 ![image](https://user-images.githubusercontent.com/88265011/185763724-143b5dfa-690c-4fc7-9494-f772af5d9ce4.png)
 
+# Singleton Pattern
 
