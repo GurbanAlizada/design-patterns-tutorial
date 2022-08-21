@@ -7,7 +7,7 @@ Design Pattern proqramlaşdırma mühitinde tez-tez ortaya çıxan problemlerə 
   Bir class yaratmaq isdədikdə  hansı alt classın lazım olduğunu bilmədikdə factory pattern-dən istifadə edirik . Factory Pattern-in köməyi ilə biz yazdığımız kodda SOLID-ın qanunlarınada riyayət etmiş oluruq . Loosly couple kod yazmış oluruq beləliklədə yazdığımız kodun həm oxunması həmde baxımi asand olur . 
 
 
-# 2.Abstract Factory Pattern!
+# 2.Abstract Factory Pattern
   Abstract Factory Pattern prinsip etibari ilə factory pattern-dən əhəmiyyətli dərəcədə fərqlənmir . Buradakı başlıca fərq isə digər fabrikaları yaradan super fabrikin olmasıdır . Bu fabrikə fabriklər fabrikidə deyirlər . Qalan logic isə factory pattern ilə tamamilə eynidir.
 Aşağıda proyekt içersindəki kodun sxemi verilmişdir . Buna əsasən deyə bilərikki əvvəlce Factory-dən  Bank Factory yaranir sonraki addımda isə Bank Factoryden Bank yaranir .
 ![image](https://user-images.githubusercontent.com/88265011/185763724-143b5dfa-690c-4fc7-9494-f772af5d9ce4.png)
@@ -43,9 +43,6 @@ https://github.com/GurbanAlizada/hrms
 Proxy pattern class başqa bir class-ın funksionallığını təmsil edir. Proxy modelində biz onun funksionallığını xarici dünya ilə əlaqələndirmək üçün orijinal obyekti olan obyekt yaradırıq.
 Proxy pattern-dəki məntiqi Spring Boot proyektlərindəki repository class-larıni (interface-lərini) service class-larında işlətərkən görürük . Burada da repository siniflərimiz private olaraq elan edilir (və eyni zamanda @Autowired annotation-ın köməyi ilə injektə olunur) və müəyyən logic şərtlərini yerine yetirildikdə icra olunur .
 Burada proxy pattern işlədilmir sadacə məntiqi olaraq proseslər oxşardır.
-# 8.Interpreter Pattern
 
-
-
-
-# 9.Iterator Pattern
+# 8.Iterator Pattern
+İterator pattern Java və .Net proqramlaşdırma mühitində çox istifadə olunan dizayn pattern-dir. Bu nümunə kolleksiya obyektinin elementlərinə onun əsas təsvirini bilmək ehtiyacı olmadan ardıcıl şəkildə daxil olmaq üçün istifadə olunur.
