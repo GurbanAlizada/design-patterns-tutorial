@@ -46,3 +46,8 @@ Burada proxy pattern işlədilmir sadacə məntiqi olaraq proseslər oxşardır.
 
 # 8.Iterator Pattern
 İterator pattern Java və .Net proqramlaşdırma mühitində çox istifadə olunan dizayn pattern-dir. Bu nümunə kolleksiya obyektinin elementlərinə onun əsas təsvirini bilmək ehtiyacı olmadan ardıcıl şəkildə daxil olmaq üçün istifadə olunur.
+
+
+
+
+Bu materialda https://www.youtube.com/watch?v=5DOEhu7LwKg&list=PLLCTYkJ1vsDDoE7CJ_xfd373RKah1V0y9&index=1 youtube kanalından və https://www.javatpoint.com/design-patterns-in-java saytından məlumatlar istifadə olunub
