@@ -13,4 +13,14 @@ Aşağıda proyekt içersindəki kodun sxemi verilmişdir . Buna əsasən deyə 
 ![image](https://user-images.githubusercontent.com/88265011/185763724-143b5dfa-690c-4fc7-9494-f772af5d9ce4.png)
 
 # Singleton Pattern
+ Singleton Pattern ən çox istifadə olunan patternlərdən biridir . Burada əsas məqsəd bir classın obyektinin yalnız bir dəfə yaradılmasına icazə verməkdir . Bunun üçün isə classın constructor-unu private edib class içində static bir methodda həmin classın obyektini yaratmaqdır . Və  obyekt yaratmaq lazım olduqda isə həmin static methodu çağırmaq kifayətdir . Burada class-ı final elan edərək onnan başqa classaların extends etmesini əngəlləyə bilərik və beləliklədə classımız immutable olur.
+ 
+# Builder Pattern
+
+Creational pattern-lərin bir növü olan bu patterndə çox geniş şəkildə istifadə olunur . Burada əsas məqsəd class yaratdığımızda constuctor-ları doldurduqda daha asan şəkildə seçim etməkdir . Nümunə olaraq 2 fərqli kod nümunəsi göstərmişəm . Builder istifədə edərək constructor-da yalnız isdədiyimiz field-ları doldururuq boş  fieldlar isə default qiymət alır.
+Builder pattern-dən istifadə üçün lombok kitabxanası bizim üçün köməklik edir . Proyektlərimizin pom.xml hissəsindən lombok kitabxanasını əlavə edib pojo classımızın başına @Builer annotation-nı əlavə etsək həmin class-ın obyektini builder pattern üsulu ilə yarada bilərik . Bu isə bizə bir çox avantajlar verir.
+Bunun isə işləmə məntiqi bəsitdir deməli JVM arxada @Builer annotation-nı əlavə edilmiş classın bənzəri bir classı yaradır(Bizim nümunəmizdəki EvBuilder kimi ) və ona builder özəlliyini verir. Biz isə bunlardan xəbərsiz sadəcə obyektlərnən işliyirik
+Bu isə kodumuzda yer alan biraz daha fərqli bir builder pattern istifədəsidir və onun sxematik şəkli 
+![image](https://user-images.githubusercontent.com/88265011/185784213-cc24a0b3-aea9-44e2-ac50-3481feb29173.png)
+
 
