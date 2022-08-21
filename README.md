@@ -23,7 +23,7 @@ Bunun isə işləmə məntiqi bəsitdir deməli JVM arxada @Builer annotation-n�
 Bu isə kodumuzda yer alan biraz daha fərqli bir builder pattern istifədəsidir 
 ![image](https://user-images.githubusercontent.com/88265011/185784213-cc24a0b3-aea9-44e2-ac50-3481feb29173.png)
 
-#Prototype Pattern
+# Prototype Pattern
     Prototype pattern-də creational pattern-lərin bir növüdür . Buradakı strategiya isə bir pojo class-nı Cloneable interface-indən implements etməkdir.Bundan sonra isə clone() methodunu override edirik və casting prosesini yerindəcə aparırıq . Ondan sonra isə obyekt yaratmaq lazım olduqda bu methodu clone etmək isdədiyimiz referansı istifadə edərək çağırırıq . Neticədə yaratdığımız yeni obyekt digər obyektin dəyərlərini daşıyacaq . 
 Prototip Pattern deyir ki, yenisini yaratmaq əvəzinə mövcud obyektin klonlanması və tələbə uyğun olaraq da fərdiləşdirilə bilər.
 Yeni obyektin yaradılmasının dəyəri bahalı və resurs tələb edirsə prototype pattern-dən istifadə edirik.
