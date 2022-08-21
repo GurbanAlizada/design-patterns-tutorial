@@ -49,5 +49,5 @@ Burada proxy pattern işlədilmir sadacə məntiqi olaraq proseslər oxşardır.
 
 
 
-
-Bu materialda https://www.youtube.com/watch?v=5DOEhu7LwKg&list=PLLCTYkJ1vsDDoE7CJ_xfd373RKah1V0y9&index=1 youtube kanalından və https://www.javatpoint.com/design-patterns-in-java saytından məlumatlar istifadə olunub
+# Mənbələr 
+Bu materialda https://www.youtube.com/watch?v=5DOEhu7LwKg&list=PLLCTYkJ1vsDDoE7CJ_xfd373RKah1V0y9&index=1 youtube kanalından və https://www.javatpoint.com/design-patterns-in-java saytından məlumatlar istifadə olunub .
